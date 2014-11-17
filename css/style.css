@@ -92,21 +92,26 @@ table {
 
 
 
-.introduction div img{
-	width: 100%;
+.introduction{
+	background-image: url('../images/images1.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 580px;
 	z-index: 10;
+	overflow: auto;
 }
 
 .introduction-div h1{
 	color: #fff;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 3.125rem;
 }
 
 .introduction-div h3{
 	color: #fff;
-	font-weight: 300;
 	font-size: 1.563rem;
+	margin-top: 1.25rem;
 }
 
 #main-div{
@@ -114,4 +119,25 @@ table {
 	position: absolute;
 	top: 17.5rem;
 	z-index: 20;
+}
+
+#main-div div{
+	margin-top: 1.563rem;
+}
+
+#main-div button{
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	line-height: 1.33;
+}
+
+#main-div button:hover{
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
