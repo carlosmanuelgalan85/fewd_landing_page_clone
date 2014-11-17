@@ -49,6 +49,10 @@ table {
 
 .top-navigation{
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 30;
+	border-bottom: 1px solid #505050;
 }
 
 .content{
@@ -140,4 +144,37 @@ table {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+
+.cases{
+	padding-bottom: 5rem;
+	padding-top: 9rem;
+}
+
+.cases .content h2{
+	font-size: 2.75rem;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.cases .device{
+	width: 33.3333333%;
+	display: inline-block;
+	box-sizing:border-box;
+	height: 4em;
+	margin-right: -4px;
+}
+
+.device img{
+	width: 127px;
+	height: 127px;
+	display: block;
+	margin: auto auto;
+}
+
+.device h4{
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+	text-align: center;
 }
